@@ -1,0 +1,6 @@
+Add-Migration InitialMigration - classes de migracao
+Update-Database - criar banco e aplicar as alteracoes
+dotnet run - http://localhost:5000/api/movielists
+
+//run tests
+C:\dev\Films\Films.tests\bin\Debug\netcoreapp3.1> VSTest.Console.exe Films.Tests.dll
